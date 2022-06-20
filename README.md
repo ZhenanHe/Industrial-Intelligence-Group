@@ -2,7 +2,7 @@
 
 ## I. About Us
 
-**==TODO==**
+**TODO**
 
 ## II. Topics
 
