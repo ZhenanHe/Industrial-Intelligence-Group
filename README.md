@@ -2,7 +2,7 @@
 
 ## I. About Us
 
-**TODO**
+We are a lab for international academic circle. We focus on the application of intelligent data processing and deep learning algorithms in industry. Our research interests mainly include: theoretical research on neural networks, natural language processing, graphic images, data science and industrial transformation. The lab has many years of research foundation and rich scientific research accumulation in many cutting-edge major hot scientific problems research, and has won many provincial and ministerial level science and technology awards.
 
 ## II. Topics
 
