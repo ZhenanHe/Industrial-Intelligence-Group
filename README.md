@@ -1,12 +1,22 @@
 # Industrial Intelligence Group
 
+Todo: 折叠
+
 ## I. About Us
 
 We are a lab for international academic circle. We focus on the application of intelligent data processing and deep learning algorithms in industry. Our research interests mainly include: theoretical research on neural networks, natural language processing, graphic images, data science and industrial transformation. The lab has many years of research foundation and rich scientific research accumulation in many cutting-edge major hot scientific problems research, and has won many provincial and ministerial level science and technology awards.
 
+Todo: teacher's info
+
 ## II. Topics
 
-### A. Open Set Signal Classification (OSSC)
+### Evolutionary Computation 
+
+#### 
+
+### Deep Learning
+
+#### Open Set Signal Classification (OSSC)
 
 Most data-driven signal diagnosis methods are based on closed set assumption that class sets of training and test data are consistent. However, in industrial scenarios, during the running process of the device, the operating environment and condition may change over time, continuing generating data belong to unknown classes with new characteristics and distribution. The unknown classes usually reflect new modes or faults of the device need to be captured. They are unavailable in training phase, contradicting the closed set assumption. Existing methods are inappropriate to this type of open set classification requiring to classify known classes and recognize unknown classes. To address this challenging problem, this paper proposes a generic open set signal classification method. First, we apply Fourier transform to convert the sensor signals from time domain to frequency domain, then data in the time and frequency domains are fused. Next, a variational encoder-classifier network is proposed to classify known classes and learn the distribution of feature space to extract robust latent features. Finally, based on extreme value theory and entropy, a pair of discriminators determine whether samples belong to unknown or not. The experimental results on two vibration signal datasets from bearings and nuclear reactor demonstrate the effectiveness and superiority of our proposed open set signal classification method, especially in practical applications.
 
