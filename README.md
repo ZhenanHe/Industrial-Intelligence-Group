@@ -22,9 +22,23 @@ https://github.com/ZhenanHe/MOEA-with-robustness-enhancement-MOEA-RE
 
 #### (2) Publication
 
-[paper](https://ieeexplore.ieee.org/document/9763052/):
+[paper](https://ieeexplore.ieee.org/document/8789665):
 
 > **Z. He, G. G. Yen, and J. Lv, "Evolutionary Multiobjective Optimization With Robustness Enhancement," in IEEE Transactions on Evolutionary Computation, vol. 24, no. 3, pp. 494-507, June 2020, doi: 10.1109/TEVC.2019.2933444.**
+
+#### Robust-Multiobjective-Optimization-via-Evolutionary-Algorithms (RMOEA)
+
+Uncertainty inadvertently exists in most real-world applications. In the optimization process, uncertainty poses a very important issue and it directly affects the optimization performance. Nowadays, evolutionary algorithms (EAs) have been successfully applied to various multiobjective optimization problems (MOPs). However, current researches on EAs rarely consider uncertainty in the optimization process and existing algorithms often fail to handle the uncertainty, which have limited EAs' applications in real-world problems. When MOPs come with uncertainty, they are referred to as robust MOPs (RMOPs). In this paper, we aim at solving RMOPs using EA-based optimization search. We propose a novel robust multiobjective optimization EA (RMOEA) with two distinct, yet complement, parts: 1) multiobjective optimization finding global Pareto optimal front ignoring disturbance at first and 2) robust optimization searching for the robust optimal front afterward. Furthermore, a comprehensive performance evaluation method is proposed to quantify the performance of RMOEA in solving RMOPs. Experimental results on a group of benchmark functions demonstrate the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
+
+#### (1) Code
+
+https://github.com/ZhenanHe/Robust-Multiobjective-Optimization-via-Evolutionary-Algorithms-RMOEA
+
+#### (2) Publication
+
+[paper](https://ieeexplore.ieee.org/document/8419222):
+
+> **Z. He, G. G. Yen, and Z. Yi, "Robust Multiobjective Optimization via Evolutionary Algorithms," in IEEE Transactions on Evolutionary Computation, vol. 23, no. 2, pp. 316-330, April 2019, doi: 10.1109/TEVC.2018.2859638.**
 
 ### Deep Learning
 
