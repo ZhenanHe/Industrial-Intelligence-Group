@@ -16,12 +16,13 @@ intelligent optimization and learning using evolutionary computation approaches.
 <summary>MOEA-with-robustness-enhancement (MOEA-RE)</summary>
 <p>
   
-  Uncertainty is an important feature abstracted from real-world applications. Multiobjective optimization problems (MOPs) with uncertainty can always be characterized as robust MOPs (RMOPs). Over recent years, multiobjective optimization evolutionary algorithms (EAs) have demonstrated the success in solving MOPs. However, most of them do not consider disturbance in the design. In order to handling the uncertainty in the optimization problem, we first give a thorough analysis of three important issues on robust optimization. Then, a novel EA called multiobjective optimization EA with robustness enhancement is developed, where the seamless integration of robustness and optimality is achieved by a proposed novel archive updating mechanism applied on the evolutionary process as well as the new robust optimal front building strategy designed to construct the final robust optimal front. Furthermore, the new designed archive updating mechanism makes the robust optimization process free of the enormous computational workload induced from sampling. The experimental results on a set of benchmark functions show the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
-  (1) Code
+Uncertainty is an important feature abstracted from real-world applications. Multiobjective optimization problems (MOPs) with uncertainty can always be characterized as robust MOPs (RMOPs). Over recent years, multiobjective optimization evolutionary algorithms (EAs) have demonstrated the success in solving MOPs. However, most of them do not consider disturbance in the design. In order to handling the uncertainty in the optimization problem, we first give a thorough analysis of three important issues on robust optimization. Then, a novel EA called multiobjective optimization EA with robustness enhancement is developed, where the seamless integration of robustness and optimality is achieved by a proposed novel archive updating mechanism applied on the evolutionary process as well as the new robust optimal front building strategy designed to construct the final robust optimal front. Furthermore, the new designed archive updating mechanism makes the robust optimization process free of the enormous computational workload induced from sampling. The experimental results on a set of benchmark functions show the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
+
+  #### (1) Code
   
   https://github.com/ZhenanHe/MOEA-with-robustness-enhancement-MOEA-RE
   
-  (2) Publication
+#### (2) Publication
   
   [paper](https://ieeexplore.ieee.org/document/8789665):
 
