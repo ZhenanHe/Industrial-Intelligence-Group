@@ -1,6 +1,6 @@
 # Industrial Intelligence Group
 
-## <summary>I. About Us</summary>
+## I. About Us
 
 We are a lab for international academic circle. We focus on the application of intelligent data processing and deep learning algorithms in industry. Our research interests mainly include: theoretical research on neural networks, natural language processing, graphic images, data science and industrial transformation. The lab has many years of research foundation and rich scientific research accumulation in many cutting-edge major hot scientific problems research, and has won many provincial and ministerial level science and technology awards.
 
@@ -8,11 +8,11 @@ Head: __Zhenan He__ received the Ph.D. degree in electrical and computer enginee
 He is currently an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. His research focuses on
 intelligent optimization and learning using evolutionary computation approaches.
 
-<summary>## II. Topics</summary>
+## II. Topics
 
-<summary>### Evolutionary Computation </summary>
+### Evolutionary Computation 
 
-<summary>#### MOEA-with-robustness-enhancement (MOEA-RE)</summary>
+#### MOEA-with-robustness-enhancement (MOEA-RE)
 
 Uncertainty is an important feature abstracted from real-world applications. Multiobjective optimization problems (MOPs) with uncertainty can always be characterized as robust MOPs (RMOPs). Over recent years, multiobjective optimization evolutionary algorithms (EAs) have demonstrated the success in solving MOPs. However, most of them do not consider disturbance in the design. In order to handling the uncertainty in the optimization problem, we first give a thorough analysis of three important issues on robust optimization. Then, a novel EA called multiobjective optimization EA with robustness enhancement is developed, where the seamless integration of robustness and optimality is achieved by a proposed novel archive updating mechanism applied on the evolutionary process as well as the new robust optimal front building strategy designed to construct the final robust optimal front. Furthermore, the new designed archive updating mechanism makes the robust optimization process free of the enormous computational workload induced from sampling. The experimental results on a set of benchmark functions show the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
 
@@ -26,7 +26,7 @@ https://github.com/ZhenanHe/MOEA-with-robustness-enhancement-MOEA-RE
 
 > **Z. He, G. G. Yen, and J. Lv, "Evolutionary Multiobjective Optimization With Robustness Enhancement," in IEEE Transactions on Evolutionary Computation, vol. 24, no. 3, pp. 494-507, June 2020, doi: 10.1109/TEVC.2019.2933444.**
 
-<summary>#### Robust-Multiobjective-Optimization-via-Evolutionary-Algorithms (RMOEA)</summary>
+#### Robust-Multiobjective-Optimization-via-Evolutionary-Algorithms (RMOEA)
 
 Uncertainty inadvertently exists in most real-world applications. In the optimization process, uncertainty poses a very important issue and it directly affects the optimization performance. Nowadays, evolutionary algorithms (EAs) have been successfully applied to various multiobjective optimization problems (MOPs). However, current researches on EAs rarely consider uncertainty in the optimization process and existing algorithms often fail to handle the uncertainty, which have limited EAs' applications in real-world problems. When MOPs come with uncertainty, they are referred to as robust MOPs (RMOPs). In this paper, we aim at solving RMOPs using EA-based optimization search. We propose a novel robust multiobjective optimization EA (RMOEA) with two distinct, yet complement, parts: 1) multiobjective optimization finding global Pareto optimal front ignoring disturbance at first and 2) robust optimization searching for the robust optimal front afterward. Furthermore, a comprehensive performance evaluation method is proposed to quantify the performance of RMOEA in solving RMOPs. Experimental results on a group of benchmark functions demonstrate the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
 
@@ -40,9 +40,9 @@ https://github.com/ZhenanHe/Robust-Multiobjective-Optimization-via-Evolutionary-
 
 > **Z. He, G. G. Yen, and Z. Yi, "Robust Multiobjective Optimization via Evolutionary Algorithms," in IEEE Transactions on Evolutionary Computation, vol. 23, no. 2, pp. 316-330, April 2019, doi: 10.1109/TEVC.2018.2859638.**
 
-<summary>### Deep Learning</summary>
+### Deep Learning
 
-<summary>#### Open Set Signal Classification (OSSC)</summary>
+#### Open Set Signal Classification (OSSC)
 
 Most data-driven signal diagnosis methods are based on closed set assumption that class sets of training and test data are consistent. However, in industrial scenarios, during the running process of the device, the operating environment and condition may change over time, continuing generating data belong to unknown classes with new characteristics and distribution. The unknown classes usually reflect new modes or faults of the device need to be captured. They are unavailable in training phase, contradicting the closed set assumption. Existing methods are inappropriate to this type of open set classification requiring to classify known classes and recognize unknown classes. To address this challenging problem, this paper proposes a generic open set signal classification method. First, we apply Fourier transform to convert the sensor signals from time domain to frequency domain, then data in the time and frequency domains are fused. Next, a variational encoder-classifier network is proposed to classify known classes and learn the distribution of feature space to extract robust latent features. Finally, based on extreme value theory and entropy, a pair of discriminators determine whether samples belong to unknown or not. The experimental results on two vibration signal datasets from bearings and nuclear reactor demonstrate the effectiveness and superiority of our proposed open set signal classification method, especially in practical applications.
 
