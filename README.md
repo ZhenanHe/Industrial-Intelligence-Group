@@ -15,15 +15,15 @@ intelligent optimization and learning using evolutionary computation approaches.
 <details>
 <summary>MOEA-with-robustness-enhancement (MOEA-RE)</summary>
 <p>
-  
+
 Uncertainty is an important feature abstracted from real-world applications. Multiobjective optimization problems (MOPs) with uncertainty can always be characterized as robust MOPs (RMOPs). Over recent years, multiobjective optimization evolutionary algorithms (EAs) have demonstrated the success in solving MOPs. However, most of them do not consider disturbance in the design. In order to handling the uncertainty in the optimization problem, we first give a thorough analysis of three important issues on robust optimization. Then, a novel EA called multiobjective optimization EA with robustness enhancement is developed, where the seamless integration of robustness and optimality is achieved by a proposed novel archive updating mechanism applied on the evolutionary process as well as the new robust optimal front building strategy designed to construct the final robust optimal front. Furthermore, the new designed archive updating mechanism makes the robust optimization process free of the enormous computational workload induced from sampling. The experimental results on a set of benchmark functions show the superiority of the proposed design in terms of both solutions' quality under the disturbance and computational efficiency in solving RMOPs.
 
   #### (1) Code
-  
+
   https://github.com/ZhenanHe/MOEA-with-robustness-enhancement-MOEA-RE
-  
+
 #### (2) Publication
-  
+
   [paper](https://ieeexplore.ieee.org/document/8789665):
 
   > **Z. He, G. G. Yen, and J. Lv, "Evolutionary Multiobjective Optimization With Robustness Enhancement," in IEEE Transactions on Evolutionary Computation, vol. 24, no. 3, pp. 494-507, June 2020, doi: 10.1109/TEVC.2019.2933444.**
@@ -45,6 +45,25 @@ https://github.com/ZhenanHe/Robust-Multiobjective-Optimization-via-Evolutionary-
 [paper](https://ieeexplore.ieee.org/document/8419222):
 
 > **Z. He, G. G. Yen, and Z. Yi, "Robust Multiobjective Optimization via Evolutionary Algorithms," in IEEE Transactions on Evolutionary Computation, vol. 23, no. 2, pp. 316-330, April 2019, doi: 10.1109/TEVC.2018.2859638.**
+</p>
+</details>
+
+<details>
+<summary>Robust Multi-Objective Optimization for Vehicle Routing Problem with Time Window </summary>
+<p>
+
+In this paper, we focus on Vehicle Routing Problem with Time Windows under uncertainty. To capture the uncertainty characteristics in a real-life scenario, we design a new form of disturbance on travel time and construct Robust Multi-objective Vehicle Routing Problem with Time Window, where perturbation range of travel time is determined by the maximum disturbance degree. Two conflicting objectives include the minimization of both the total distance and the number of vehicles. A Robust Multi-objective Particle Swarms Optimization approach is developed by incorporating an advanced encoding and decoding scheme, a robustness measurement metric, as well as the local search strategy. First, through particle flying in the decision space, problem space characteristic under deterministic environment is fully exploited to provide guidance for robust optimization. Then, a designed metric is adopted to measure the robustness of solutions and help to search for the robust optimal solutions during the particle flying process. In addition to updating process of particle, two local search strategies, problem-based local search and route-based local search, are developed for further improving the performance of solutions. For comparison, we develop several robust optimization problems by adding disturbances on selected benchmark problems. Experimental results validate our proposed algorithm has a distinguished ability to generate enough number of robust solutions as well as ensure the optimality of these solutions.
+
+#### (1) Code
+
+https://github.com/ZhenanHe/R-MOPSO
+
+#### (2) Publication
+
+[paper](https://ieeexplore.ieee.org/abstract/document/9345393)
+
+> **J. Duan, Z. He and G. G. Yen, "Robust Multiobjective Optimization for Vehicle Routing Problem With Time Windows," in *IEEE Transactions on Cybernetics*, doi: 10.1109/TCYB.2021.3049635.*
+
 </p>
 </details>
 
