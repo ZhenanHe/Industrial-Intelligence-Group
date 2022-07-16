@@ -49,8 +49,9 @@ https://github.com/ZhenanHe/Robust-Multiobjective-Optimization-via-Evolutionary-
 </details>
 
 <details>
-<summary>Robust Multi-Objective Optimization for Vehicle Routing Problem with Time Window </summary>
+<summary>Robust Multi-Objective Optimization for Vehicle Routing Problem with Time Window (R-MOPSO) </summary>
 <p>
+
 
 In this paper, we focus on Vehicle Routing Problem with Time Windows under uncertainty. To capture the uncertainty characteristics in a real-life scenario, we design a new form of disturbance on travel time and construct Robust Multi-objective Vehicle Routing Problem with Time Window, where perturbation range of travel time is determined by the maximum disturbance degree. Two conflicting objectives include the minimization of both the total distance and the number of vehicles. A Robust Multi-objective Particle Swarms Optimization approach is developed by incorporating an advanced encoding and decoding scheme, a robustness measurement metric, as well as the local search strategy. First, through particle flying in the decision space, problem space characteristic under deterministic environment is fully exploited to provide guidance for robust optimization. Then, a designed metric is adopted to measure the robustness of solutions and help to search for the robust optimal solutions during the particle flying process. In addition to updating process of particle, two local search strategies, problem-based local search and route-based local search, are developed for further improving the performance of solutions. For comparison, we develop several robust optimization problems by adding disturbances on selected benchmark problems. Experimental results validate our proposed algorithm has a distinguished ability to generate enough number of robust solutions as well as ensure the optimality of these solutions.
 
@@ -62,7 +63,7 @@ https://github.com/ZhenanHe/R-MOPSO
 
 [paper](https://ieeexplore.ieee.org/abstract/document/9345393)
 
-> **J. Duan, Z. He and G. G. Yen, "Robust Multiobjective Optimization for Vehicle Routing Problem With Time Windows," in *IEEE Transactions on Cybernetics*, doi: 10.1109/TCYB.2021.3049635.*
+> **J. Duan, Z. He and G. G. Yen, "Robust Multiobjective Optimization for Vehicle Routing Problem With Time Windows," in *IEEE Transactions on Cybernetics*, doi: 10.1109/TCYB.2021.3049635.**
 
 </p>
 </details>
